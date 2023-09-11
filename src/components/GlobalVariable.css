@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #292929;
+    --secondary-color: #1b1b1b;
+    --color-card-body: #fffefe;
+    --color-card-title: #ffa31a;
+    --nav-div: #454545;
+    --nav-div-hover: var(--color-card-title);
+    /* Add more color variables as needed */
+  }

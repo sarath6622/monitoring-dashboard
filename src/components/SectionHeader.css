@@ -1,0 +1,11 @@
+.section-header{
+    width: 96.5%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+}
+
+.section-header > h3{
+    margin-top: 10px;
+}

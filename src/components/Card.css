@@ -1,14 +1,17 @@
 .card{
     display: flex;
     flex-direction: column;
-    background-color: white;
-    border: 1px solid rgb(182, 182, 182);
     border-radius: 5px;
+    background-color: var(--color-card-body);
     align-items: center;
-    width: 90%;
-    gap: 10px;
-    margin: 10px;
+    width: calc(33.33% - 20px);
     justify-content: space-between;
+    margin-bottom: 20px;
+    border: 0.8px solid rgb(197, 193, 193);
+    -webkit-box-shadow: 2px 0px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 8px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px 0px 8px -1px rgba(0,0,0,0.75);
+
 }
 
 h3{
@@ -16,7 +19,10 @@ h3{
     margin: 0;
 }
 .card-title{
-    background-color: bisque;
+    background-color: var(--color-card-title);
+    color: var(--secondary-color);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     width: 100%;
     text-align: center;
 }
@@ -30,7 +36,11 @@ p{
 }
 
 .card-footer{
-    background-color: rgb(175, 169, 169);
+    background-color: rgb(155, 155, 155);
+    color: rgb(99, 93, 93);
     width: 100%;
-    padding: 0;
+    text-align: right;
+    border: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }

@@ -8,6 +8,11 @@
     padding: 20px;
 }
 
+.sidebar > h1{
+    border: 0.2px solid white;
+    border-radius: 150px;
+    padding: 0px  10px  5px 10px;
+}
 
 .sections{
     border-radius: 5px; 

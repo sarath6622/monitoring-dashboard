@@ -37,10 +37,13 @@ p{
 
 .card-footer{
     background-color: rgb(155, 155, 155);
+    opacity: 75%;
     color: rgb(99, 93, 93);
     width: 100%;
     text-align: right;
     border: 10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    font-size: 12px;
+    padding-block: 3px 3px;
 }

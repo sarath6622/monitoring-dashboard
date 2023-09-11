@@ -1,0 +1,36 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    align-items: center;
+    width: 90%;
+    gap: 10px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+h3{
+    padding: 0;
+    margin: 0;
+}
+.card-title{
+    background-color: bisque;
+    width: 100%;
+    text-align: center;
+}
+
+.card-body{
+    height: 200px;
+}
+
+p{
+    margin: 0;
+}
+
+.card-footer{
+    background-color: rgb(175, 169, 169);
+    width: 100%;
+    padding: 0;
+}

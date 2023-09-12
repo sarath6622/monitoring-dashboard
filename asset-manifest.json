@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/monitoring-dashboard/static/css/main.5c9378f4.css",
+    "main.js": "/monitoring-dashboard/static/js/main.fac86b20.js",
+    "static/js/787.f3a0ccda.chunk.js": "/monitoring-dashboard/static/js/787.f3a0ccda.chunk.js",
+    "index.html": "/monitoring-dashboard/index.html",
+    "main.5c9378f4.css.map": "/monitoring-dashboard/static/css/main.5c9378f4.css.map",
+    "main.fac86b20.js.map": "/monitoring-dashboard/static/js/main.fac86b20.js.map",
+    "787.f3a0ccda.chunk.js.map": "/monitoring-dashboard/static/js/787.f3a0ccda.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c9378f4.css",
+    "static/js/main.fac86b20.js"
+  ]
+}

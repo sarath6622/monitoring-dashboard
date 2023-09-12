@@ -8,10 +8,10 @@
     padding: 20px;
 }
 
-.sidebar > h1{
+.sidebar-elements > h1{
     border: 0.2px solid #33ccff;
     border-radius: 150px;
-    padding: 0px  10px  5px 10px;
+    padding: 0px  15px  5px 15px;
     background: linear-gradient(to bottom, #33ccff 0%, #ffa31a 100%)
 }
 
@@ -20,7 +20,8 @@
     width: 90%;
     cursor: pointer;
 }
-.sidebar > div > div{
+
+.sidebar > div > div > div{
     padding: 10px;
     background-color: var(--nav-div);
     border-radius: 5px; 
@@ -28,7 +29,11 @@
     transition: all 0.2s;
 }
 
-.sidebar >div>  div:hover{
+.sidebar-elements{
+    position: fixed;
+}
+
+.sidebar > div >div>  div:hover{
     background-color: var(--nav-div-hover);
     color: rgb(0, 0, 0);
     border-radius: 5px;

@@ -3,6 +3,7 @@ import './Sidebar.css';
 function Sidebar() {
   return (
     <div className="sidebar">
+      <div className="sidebar-elements">
       <h1> Columbus </h1>
 
       <div className='sections'>
@@ -10,6 +11,9 @@ function Sidebar() {
         <div>DSP</div>
         <div>Stock +</div>
         <div>MD</div>
+
+      </div>
+
       </div>
 
     </div>
